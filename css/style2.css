@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+     
+}
+
+/*tipografia*/
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #fff;
+    z-index: 10;
+    
+    /*background: rgba(211, 211, 211, 0.5);*/
+}
+
+header .logo {
+    position: relative;
+    transition: 1.5s;
+    text-decoration: none;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    font-family: 'Montserrat';
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.7s;
+    font-size: 15px;
+}
+
+/*-----iconos idiomas-----*/
+
+.idiomas {
+    display: flex;
+    align-items: center;      
+    
+}
+
+.icono-idioma {
+    padding-right: 20px;
+    height: 30px;
+}
+
+/*-----zona5-----*/
+
+.zona5 {
+    font-family: 'Montserrat';
+    height: 400px;
+    background-image: url(../img/estudiantes5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.hero-alojamiento {
+    font-family: 'Montserrat';
+    height: 400px;
+    background-image: url(../img/chacras-de-azcona.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
+.contenedor-textos {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.zona5 h1, .hero-alojamiento h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.zona5 p, .hero-alojamiento p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.boton {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #305A8f;
+    color: #ffffff;
+    text-decoration: none;  
+}
+
+button {
+    background: #305A8f;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 20px;   
+    font-family: 'Montserrat';         
+}
+
+
+
+
+
+.zona5 a {
+    font-size: 12px;
+}
+
+.quienes-somos {
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+   
+}
+
+.quienes-somos h3 {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.quienes-somos h2 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.quienes-somos h4 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.quienes-somos p {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
+/*-----zona3/4-----*/
+
+.zona3, .zona4 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Montserrat';
+}
+
+.zona3 img, .zona4 img {
+    width: 50%;
+}
+
+.zona3 H2, .zona4 H2 {
+    font-size: 40px;
+}
+
+.zona3 p, .zona4 p {
+    font-weight: light;
+    line-height: 35px;
+    color: #777777;
+}
+
+.contenedor-zona3 {
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.zona3 div {    
+    padding: 20px 0 20px 20px;
+}
+
+.zona4 div {
+    padding-top: 20px;
+}
+
+.contenedor-zona4 {
+    width: 50%;
+    padding: 20px 20px 20px 0;
+}
+
+.zona4 {
+    /*padding-top: 30px;*/
+    margin-bottom: 50px;
+}
+
+.zona4 img {
+    padding-right: 20px;
+}
+
+.zona4 botom, .zona3 botom {
+    background: #305A8f;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.div2-zona4 { 
+    padding: 0 0 20px 0
+}
+
+.botom {
+    padding-left: 20px;
+}
+
+/*-----zona7-----*/
+
+.zona7 {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+}
+
+.zona7 h2 {
+    color: #777777;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.zona7 p {
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 35px;
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.programa {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.programa p {
+    text-align: left;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px; /* Ajusta el valor según tus necesidades */
+    font-family: 'Montserrat';
+
+}
+
+.titulo-tabla {
+    padding-top: 20px;
+}
+
+.contenedor-tablas {
+    display: flex;    
+    padding-left: 100px;
+    
+}
+
+/*-----footer-----*/
+
+footer {
+    margin-top: 30px;
+    background:#305A8f;
+    color: #fff;
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer .titulo-seccion {
+    color: var(--colorTitulos);
+}
+
+footer .copy {
+    color: #777777;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.redes-sociales i {
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
+

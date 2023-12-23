@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+     
+}
+
+/*tipografia*/
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 10px 20px;
+    z-index: 10;
+    /*background: rgba(211, 211, 211, 0.5);*/
+}
+
+header.abajo {
+    background: #fff;
+    padding: 10px 20px;
+}
+
+header.abajo .logo,
+header.abajo ul li a {
+    color: black;
+}
+
+header .logo {
+    position: relative;
+    transition: 1.5s;
+    text-decoration: none;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    font-family: 'Montserrat';
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 0.7s;
+    font-size: 15px;
+}
+
+/*-----iconos idiomas-----*/
+
+.idiomas {
+    display: flex;
+    align-items: center;      
+    
+}
+
+.icono-idioma {
+    padding-right: 20px;
+    height: 30px;
+}
+
+/*-----hero-----*/
+
+.hero {
+    margin-top: 100px;
+}
+
+.zona1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/estudiantes.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.contenedor-textos {
+    padding-top: 30VH;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: #fff;
+    
+}
+
+.contenedor-textos h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.contenedor-textos p {
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.logo-hero {
+    height: 160px;
+}
+
+/*-----zona2-----*/
+
+.zona2 {
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;    
+    justify-content: space-around;
+}
+
+.zona2 div {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.zona2 img {
+   height: 120px;
+}
+
+.zona2 p {
+    padding: 20px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    max-width: 200px;
+}
+
+/*-----quienes somos3-----*/
+
+
+.quienes-somos {
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+
+.quienes-somos h3 {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.quienes-somos h2 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.quienes-somos p {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
+
+/*-----zona3/4-----*/
+
+.zona3, .zona4 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    font-family: 'Montserrat';
+}
+
+.zona3 img, .zona4 img {
+    width: 50%;
+}
+
+.zona3 H2, .zona4 H2 {
+    font-size: 40px;
+}
+
+.zona3 p, .zona4 p {
+    font-weight: light;
+    line-height: 35px;
+    color: #777777;
+}
+
+.contenedor-zona3 {
+    width: 50%;
+    padding: 20px 40px;
+}
+
+.zona3 div {    
+    padding: 20px 0 20px 20px;
+}
+
+.zona4 div {
+    padding-top: 20px;
+}
+
+.contenedor-zona4 {
+    width: 50%;
+    padding: 20px 20px 20px 0;
+}
+
+.zona4 {
+    /*padding-top: 30px;*/
+    margin-bottom: 50px;
+}
+
+.zona4 img {
+    padding-right: 20px;
+}
+
+.zona4 botom, .zona3 botom {
+    background: #305A8f;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.div2-zona4 { 
+    padding: 0 0 20px 0
+}
+
+/*.botom {
+    padding-left: 20px;
+}*/
+
+/*-----zona5-----*/
+
+.zona5 {
+    font-family: 'Montserrat';
+    height: 400px;
+    background-image: url(../img/estudiantes4.png);
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contenedor-textos {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.zona5 h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.zona5 p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.boton {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    background: #305A8f;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.zona5 a {
+    font-size: 12px;
+}
+
+/*-----footer-----*/
+
+footer {
+    margin-top: 30px;
+    background:#305A8f;
+    color: #fff;
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer .titulo-seccion {
+    color: var(--colorTitulos);
+}
+
+footer .copy {
+    color: #777777;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.redes-sociales i {
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 60px;
+}
