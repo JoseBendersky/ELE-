@@ -73,6 +73,10 @@ header ul li a {
     height: 30px;
 }
 
+.seccion-vacia {
+    height: 30px;
+}
+
 /*-----zona5-----*/
 
 .zona5 {
@@ -101,6 +105,19 @@ header ul li a {
     padding-top: 30px;
 }
 
+.hero-precios {
+    font-family: 'Montserrat';
+    height: 400px;
+    background-image: url(../img/estudiantes8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+
 .contenedor-textos {
     padding: 0;
     height: 100%;
@@ -111,14 +128,14 @@ header ul li a {
     color: #fff;
 }
 
-.zona5 h1, .hero-alojamiento h1 {
+.zona5 h1, .hero-alojamiento h1, .hero-precios h1 {
     font-size: 50px;
     font-weight: 900;
     margin-bottom: 30px;
     letter-spacing: 5px;
 }
 
-.zona5 p, .hero-alojamiento p {
+.zona5 p, .hero-alojamiento p, .hero-precios p {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 40px;
@@ -143,19 +160,18 @@ button {
     font-family: 'Montserrat';         
 }
 
-
-
-
-
 .zona5 a {
     font-size: 12px;
 }
 
+/*-----quienes somos-----*/
+
 .quienes-somos {
-    height: 300px;
+    height: 200px;
     width: 90%;
     margin: 0 auto;
     padding-top: 40px;
+  
    
 }
 
@@ -186,11 +202,16 @@ button {
     font-family: 'Montserrat';
     color: black;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     line-height: 35px;
 }
 
 /*-----zona3/4-----*/
+
+.zona3 {
+    padding-top: 50px;
+    
+}
 
 .zona3, .zona4 {
     width: 90%;
@@ -234,6 +255,7 @@ button {
 .zona4 {
     /*padding-top: 30px;*/
     margin-bottom: 50px;
+  
 }
 
 .zona4 img {
@@ -262,6 +284,7 @@ button {
     width: 90%;
     margin: 0 auto;
     font-family: 'Montserrat';
+   
 }
 
 .zona7 h2 {
@@ -274,12 +297,14 @@ button {
 .zona7 p {
     color: black;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     line-height: 35px;
     font-size: 15px;
     width: 90%;
     margin: 0 auto;
 }
+
+/*-----programa-----*/
 
 .programa {
     width: 90%;
@@ -291,11 +316,12 @@ button {
     text-align: left;
 }
 
+/*-----tabla-----*/
+
 table {
     border-collapse: separate;
     border-spacing: 20px; /* Ajusta el valor según tus necesidades */
     font-family: 'Montserrat';
-
 }
 
 .titulo-tabla {
@@ -304,9 +330,65 @@ table {
 
 .contenedor-tablas {
     display: flex;    
-    padding-left: 100px;
+    padding-left: 100px;    
+}
+
+.contenedor-tabla-centrada {
+    display: flex;    
+    justify-content: center; 
+    padding-top: 30px;
+}
+
+.table td {
+    text-align: left;
+}
+
+.tabla-centrada th, td {
+    text-align: center;
+}
+
+.tabla-centrada th:first-child, .tabla-centrada td:first-child {
+    text-align: left;
+}
+
+
+
+/*-----cards alojamiento-----*/
+.contenedor-alojamiento {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-alojamiento {
+    width: 30%;
+    padding-bottom: 40px;
+    padding-top: 40px;
     
 }
+
+.card-alojamiento img {
+    width: 100%;
+    height: 250PX;
+}
+
+.card-alojamiento h2 {
+    font-family: 'Montserrat';
+    letter-spacing: 5px;
+    color: #777777;
+}
+
+.card-alojamiento p {
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+
+
+
 
 /*-----footer-----*/
 
@@ -340,6 +422,180 @@ footer .copy {
     padding: 20px;
     padding-bottom: 60px;
 }
+
+/*-----tarifas-----*/
+.tarifas {
+    font-family: 'Montserrat';
+    width: 90%;
+    margin: 0 auto;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.tarifas div  {
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+    padding-top: 30PX;
+}   
+
+.tarifas h3 {
+    color: #777777;
+    padding-bottom: 10px;    
+}
+
+
+span {
+    background-color: #305A8f;
+    color: #fff;
+    padding: 5px;
+    margin-top: 20px;    
+}
+
+.no-incluye {
+    background-color: rgb(244, 239, 239);
+   
+    padding: 20px;
+}
+
+/*-----quienes somos-----*/
+
+.cabecera-precios {
+    height: 130px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;  
+   
+}
+
+.cabecera-precios h3 {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.cabecera-precios h2 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.cabecera-precios h4 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.cabecera-precios p {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
+/*-----quienes somos-----*/
+
+.cabecera-azul {
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 150px;
+    margin-bottom: 40px;
+   
+}
+
+.cabecera-azul h3 {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.cabecera-azul h2 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.cabecera-azul h4 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.cabecera-azul p {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
+/*-----efectosfotos-----*/
+.azul-contenedor {
+    width: 90%;
+    margin-top: 400px;
+    margin: 0 auto;        
+}
+
+.azul-imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.contenedor {
+    position: relative;
+    overflow: hidden;
+    width: 380px;
+    height: 380px;
+    cursor: pointer;      
+  }
+
+  /* Estilo de la imagen */
+  .imagen {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+   
+  }
+
+  /* Estilo del texto superpuesto */
+  .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    background-color: #305A8f;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  /* Efecto de agrandamiento al pasar el cursor */
+  .contenedor:hover .imagen {
+    transform: scale(1.1);
+  }
+
+  /* Mostrar texto al pasar el cursor */
+  .contenedor:hover .texto {
+    opacity: 1;
+  }
+
 
 
 

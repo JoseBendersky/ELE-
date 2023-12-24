@@ -178,7 +178,7 @@ header ul li a {
     font-family: 'Montserrat';
     color: black;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     line-height: 35px;
 }
 
@@ -331,4 +331,8 @@ footer .copy {
     font-size: 30px;
     padding: 20px;
     padding-bottom: 60px;
+}
+
+.seccion-vacia {
+    height: 30px;   
 }
