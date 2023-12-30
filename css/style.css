@@ -38,7 +38,7 @@ header .logo {
     position: relative;
     transition: 1.5s;
     text-decoration: none;
-    height: 80px;
+    height: 60px;
 }
 
 nav {
@@ -101,8 +101,7 @@ header ul li a {
 
 
 .contenedor-textos {
-    padding-top: 30VH;
-    text-align: center;
+
     font-family: 'Montserrat';
     color: #fff;
     
@@ -110,6 +109,13 @@ header ul li a {
 
 .contenedor-textos h1 {
     font-size: 40px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  
+}
+
+.contenedor-textos h2 {
+    font-size: 25px;
     letter-spacing: 5px;
 }
 
@@ -119,7 +125,9 @@ header ul li a {
 }
 
 .logo-hero {
-    height: 160px;
+    height: 400px;
+
+  
 }
 
 /*-----zona2-----*/
@@ -336,3 +344,23 @@ footer .copy {
 .seccion-vacia {
     height: 30px;   
 }
+
+/*formulario*/
+
+.form-content {
+    
+    background: linear-gradient(
+        50deg,
+        rgba(40, 42, 55, 1) 50%,
+        rgba(40, 42, 55, 0.7)
+        ),
+        url(img);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 1000px;
+    border-radius: 25px;
+
+}
+

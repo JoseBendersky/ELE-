@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style2.css">
+<!--tipografia-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+
+<!--fontawesome-->
+<script src="https://kit.fontawesome.com/5ed5716520.js" crossorigin="anonymous"></script>
+
+    <title>ELE Ñ - Contacto</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="./img/isologo-experimenteele.png" alt=""></a>
+        <nav>
+            <ul>
+              <li><a href="#quienes-somos">Quienes somos</a></li>
+              <li><a href="#filosofia">Filosofía Ñ</a></li>
+              <li><a href="azul.html">Azul</a></li>
+              <li><a href="cursos.html">Cursos</a></li>
+              <li><a href="alojamiento.html">Alojamientos</a></li>
+              <li><a href="precios.html">Precios y calendario</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          
+        </nav>
+
+<!--iconos idiomas-->
+        <div class="idiomas">
+            <a href="contacto.html"><img class="icono-idioma" src="./img/espaniol.png" alt="icono idioma español"></a>
+            <a href="contacto-ingles.html"><img class="icono-idioma" src="./img/icono-ingles.png" alt="icono idioma inglés"></a>
+            <a href="contacto-portugues.html"><img class="icono-idioma" src="./img/icono-portugues.png" alt="icono idioma portugués"></a>
+        </div>
+    </header>
+
+    <main>
+            
+      <section class="cabecera-contacto" >
+        
+        <H2>CONTÁCTENOS</H2>
+        <P>Solicite más información sobre los cursos, datos de nuestra ciudad o consulte sobre cualquiera de nuestras actividades programadas. Enseguida nos pondremos en contacto con usted. </P>  
+      </section>
+
+      <section class="formulario">
+
+        <form action="submeter-formulario.php" method="post">       
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Nombre">
+                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Correo electrónico">
+                <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Asunto">
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Mensaje"></textarea> 
+                <button type="submit" name="enviar_formulario" id="enviar">ENVIAR</button>
+        </form>
+
+      </section>
+
+      
+    </main>
+
+
+    <footer>
+        
+            <div class="footer-contenedor">
+                <h2 class="titulo-seccion">Contacto</h2>
+            </div>
+            <div class="redes-sociales">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        
+       
+    </footer>
+    
+</body>
+</html>

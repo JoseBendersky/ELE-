@@ -18,6 +18,7 @@ header {
     justify-content: space-around;
     height: 100px;
     background-color: #fff;
+    align-items: center;
     z-index: 10;
     
     /*background: rgba(211, 211, 211, 0.5);*/
@@ -27,7 +28,7 @@ header .logo {
     position: relative;
     transition: 1.5s;
     text-decoration: none;
-    height: 80px;
+    height: 60px;
 }
 
 nav {
@@ -595,6 +596,130 @@ span {
   .contenedor:hover .texto {
     opacity: 1;
   }
+
+  /*-----formulario-----*/
+    
+  .formulario {  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+    border: 1px solid #305A8f;
+  
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #305A8f; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    font-family: 'Montserrat';
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px;
+    max-width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border: 1px solid #305A8f;
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+    font-family: 'Montserrat';
+    
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    background-color: #305A8f; 
+    border-color: #305A8f; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 405px;   
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 15px;
+  }
+   
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 2px solid #305A8f;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 2px solid #305A8f;
+  }
+
+  .cabecera-contacto {
+    height: 250px;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 150px;
+   
+}
+
+.cabecera-contacto h3 {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.cabecera-contacto h2 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+
+.cabecera-contacto h4 {
+    font-family: 'Montserrat';
+    color: #777777;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 20px;
+}
+
+.cabecera-contacto p {
+    font-family: 'Montserrat';
+    color: black;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 35px;
+}
+
 
 
 
