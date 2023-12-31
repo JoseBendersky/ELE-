@@ -391,38 +391,6 @@ table {
 
 
 
-/*-----footer-----*/
-
-footer {
-    margin-top: 30px;
-    background:#305A8f;
-    color: #fff;
-}
-
-footer h2 {
-    text-align: center;
-    padding-top: 20px;
-}
-
-footer .titulo-seccion {
-    color: var(--colorTitulos);
-}
-
-footer .copy {
-    color: #777777;
-}
-
-.redes-sociales {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.redes-sociales i {
-    font-size: 30px;
-    padding: 20px;
-    padding-bottom: 60px;
-}
 
 /*-----tarifas-----*/
 .tarifas {
@@ -686,6 +654,7 @@ span {
     width: 90%;
     margin: 0 auto;
     padding-top: 150px;
+    margin-bottom: 130px;
    
 }
 
@@ -716,9 +685,91 @@ span {
     font-family: 'Montserrat';
     color: black;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     line-height: 35px;
+   
 }
+
+/*-----footer-----*/
+
+footer {
+    margin-top: 30px;
+    background:#305A8f;
+    color: #fff;
+    font-family: 'Montserrat';
+    height: 250px;
+
+}
+
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.redes-sociales i {
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.seccion-vacia {
+    height: 30px;   
+}
+
+.firma-footer {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+footer img {
+   height: 100px;
+}
+
+footer h4 {   
+    letter-spacing: 5px;
+}
+
+.firma-footer div {
+    padding: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.socios-footer {
+    padding-right: 20px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.socios-footer img {
+    height: 80px;
+    padding-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.firma-proyecto-b {
+    margin-left: 30px;
+    margin-top: 30px;
+  
+}
+
+.firma-proyecto-b img {
+    height: 25px;
+}
+
 
 
 
