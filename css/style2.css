@@ -697,22 +697,8 @@ footer {
     background:#305A8f;
     color: #fff;
     font-family: 'Montserrat';
-    height: 250px;
+    height: 200px;
 
-}
-
-
-.redes-sociales {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.redes-sociales i {
-    font-size: 30px;
-    padding: 20px;
-    margin-top: 50px;
-    
 }
 
 .seccion-vacia {
@@ -723,13 +709,13 @@ footer {
     display: flex;
     padding: 20px;
     margin-top: 20px;
+    align-items: center;
 }
 
 .contenedor-footer {
     display: flex;
-    justify-content: space-between;
-   
-   
+    justify-content: space-around;
+    align-items: center;     
 }
 
 footer img {
@@ -747,29 +733,10 @@ footer h4 {
     margin-left: 20px;
 }
 
-.socios-footer {
-    padding-right: 20px;
-    margin-top: 20px;
-    display: flex;
-}
-
-.socios-footer img {
-    height: 80px;
-    padding-top: 20px;
-    margin-left: 20px;
-    
-}
-
-.firma-proyecto-b {
-    margin-left: 30px;
-    margin-top: 30px;
-  
-}
 
 .firma-proyecto-b img {
     height: 25px;
 }
-
 
 
 
